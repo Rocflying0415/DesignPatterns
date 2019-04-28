@@ -23,7 +23,7 @@ class ProductA : public AbstractProduct
 {
 public:
 	ProductA();
-	virtual ~ProductA();
+	~ProductA();
 
 	void operation();
 };
@@ -32,7 +32,7 @@ class ProductB : public AbstractProduct
 {
 public:
 	ProductB();
-	virtual ~ProductB();
+	~ProductB();
 
 	void operation();
 };

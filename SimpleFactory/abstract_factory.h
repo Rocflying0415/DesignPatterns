@@ -22,7 +22,7 @@ class SimpleFactory : public AbstractFactory
 {
 public:
 	SimpleFactory();
-	virtual ~SimpleFactory();
+	~SimpleFactory();
 
 	AbstractProduct* createProduct(const char type);
 };
